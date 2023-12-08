@@ -1,0 +1,1 @@
+solving palndrome checked with recrusivity

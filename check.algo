@@ -1,0 +1,26 @@
+// ALGORITHME "nom"
+function pal (ch)
+    if (length(ch)<=1) then
+        return true;
+    else if ch[0]==ch[ch.length-1] then
+        ch := delete(ch,0,1)
+        ch := delete(ch,ch.length-1,1)
+        return pal (ch )
+    end if 
+    rerturn false
+
+ALGORITHME pal
+VAR
+    CH EST_DU_TYPE STRING   
+BEGIN_ALGORITHME
+    // Votre algorithme ici ! 🤓
+    pal (ch)
+    
+END_ALGORITHME
+
+
+
+
+
+
+
